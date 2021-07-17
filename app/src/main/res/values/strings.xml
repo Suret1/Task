@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Task</string>
+    <string name="conversations">Conversations</string>
+    <string name="hint_search_view">Search for friends</string>
+    <string name="active_now">Active now</string>
+    <string name="offline">Offline</string>
+
+</resources>

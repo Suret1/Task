@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clipToPadding="false"
+    android:layout_margin="16dp"
+    android:orientation="horizontal"
+    android:gravity="center|end"
+    android:layout_gravity="center_vertical">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/textView_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@drawable/message_sent"
+        android:padding="16dp"
+        tools:text="Hello"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:rotation="90"
+        android:layout_gravity="bottom"
+        android:background="@drawable/right_corner"
+        />
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="40dp"
+        android:layout_gravity="bottom"
+        android:layout_height="40dp">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iw_profile"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:scaleType="centerCrop"
+        tools:srcCompat="@drawable/ic_launcher_foreground" />
+        <View
+            android:id="@+id/iwCheck"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            tools:background="@drawable/circular_active_badge"
+            android:scaleType="centerCrop"/>
+    </RelativeLayout>
+</LinearLayout>
